@@ -71,17 +71,41 @@ a:hover {
 	left: 220px;
   background-color:red;
 }
-
+.sinalAmarelo{
+    padding: 0px;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	z-index: auto;
+	top: 119px;
+	left: 220px;
+  background-color:yellow;
+}
 .sinalVerde{
     padding: 0px;
 	height: 50px;
 	width: 50px;
 	position: absolute;
 	z-index: auto;
-	top: 140px;
+	top: 165px;
 	left: 220px;
   background-color:green;
+  
 }
+.button {
+    background-color:green;    border: none;
+    color: white;
+    padding: 14px 32px;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	top: 165px;
+	left: 290px;
+}
+
 </style>
 
 <body>
@@ -123,8 +147,10 @@ a:hover {
     </tbody>
   </table>  
   </div>
-<div class="sinalVermelho"></div>
+<div class="sinalVermelho"><button></button></div>
+<div class="sinalAmarelo"></div>
 <div class="sinalVerde"></div>
+<button class="button">Green</button>
 
 </body>
 
