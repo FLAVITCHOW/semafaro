@@ -70,6 +70,7 @@ a:hover {
 	top: 70px;
 	left: 220px;
   background-color:red;
+  opacity: 0.6;
 }
 .sinalAmarelo{
     padding: 0px;
@@ -80,6 +81,7 @@ a:hover {
 	top: 119px;
 	left: 220px;
   background-color:yellow;
+  opacity: 0.8;
 }
 .sinalVerde{
     padding: 0px;
@@ -95,22 +97,64 @@ a:hover {
 .botaoVerde {
     background-color: white;
     color: green; 
-    padding: 13px 32px;
+    padding: 12px 44px;
     position: absolute;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-	top: 164px;
+	top: 163px;
 	left: 290px;
-    border: 2px solid #4CAF50;
+    border: 2px solid green;
     text-align: center;
      -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
 .botaoVerde:hover {
-    background-color: #4CAF50;
+    background-color: green;
+    color: white;
+}
+.botaoAmarelo {
+    background-color: white;
+    color: yellow; 
+    padding: 10px 34px;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	top: 117px;
+	left: 290px;
+    border: 2px solid yellow;
+    text-align: center;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.botaoAmarelo:hover {
+    background-color: yellow;
+    color: white;
+}
+.botaoVermelho {
+    background-color: white;
+    color: red; 
+    padding: 12px 30px;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	top: 67px;
+	left: 290px;
+    border: 2px solid red;
+    text-align: center;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.botaoVermelho:hover {
+    background-color: red;
     color: white;
 }
 
@@ -158,7 +202,9 @@ a:hover {
 <div class="sinalVermelho"></div>
 <div class="sinalAmarelo"></div>
 <div class="sinalVerde"></div>
-<button class="botaoVerde"><a href="http://www.google.com" target="_parent"></a>Green</button>
+<button class="botaoVerde"><a href="semafaroVerde" target="_parent"></a>Verde</button>
+<button class="botaoVermelho"><a href="semafaroVermelho" target="_parent"></a>Vermelho</button>
+<button class="botaoAmarelo"><a href="semafaroAmarelo" target="_parent"></a>Amarelo</button>
 
 
 </body>
