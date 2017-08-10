@@ -1,4 +1,4 @@
-﻿<html>
+<html>
 
 <head>
   <meta charset="utf-8">
@@ -92,18 +92,68 @@ a:hover {
   background-color:green;
   
 }
-.button {
-    background-color:green;    border: none;
-    color: white;
-    padding: 14px 32px;
+.botaoVerde {
+    background-color: white;
+    color: green; 
+    padding: 12px 44px;
     position: absolute;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-	top: 165px;
+	top: 163px;
 	left: 290px;
+    border: 2px solid green;
+    text-align: center;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.botaoVerde:hover {
+    background-color: green;
+    color: white;
+}
+.botaoAmarelo {
+    background-color: white;
+    color: yellow; 
+    padding: 10px 34px;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	top: 117px;
+	left: 290px;
+    border: 2px solid yellow;
+    text-align: center;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.botaoAmarelo:hover {
+    background-color: yellow;
+    color: white;
+}
+.botaoVermelho {
+    background-color: white;
+    color: red; 
+    padding: 12px 30px;
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	top: 67px;
+	left: 290px;
+    border: 2px solid red;
+    text-align: center;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.botaoVermelho:hover {
+    background-color: red;
+    color: white;
 }
 
 </style>
@@ -147,10 +197,13 @@ a:hover {
     </tbody>
   </table>  
   </div>
-<div class="sinalVermelho"><button></button></div>
+<div class="sinalVermelho"></div>
 <div class="sinalAmarelo"></div>
 <div class="sinalVerde"></div>
-<button class="button">Green</button>
+<button class="botaoVerde"><a href="semafaroVerde" target="_parent"></a>Verde</button>
+<button class="botaoVermelho"><a href="semafaroVermelho" target="_parent"></a>Vermelho</button>
+<button class="botaoAmarelo"><a href="semafaroAmarelo" target="_parent"></a>Amarelo</button>
+
 
 </body>
 
